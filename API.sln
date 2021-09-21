@@ -4,12 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API.csproj", "{DF0CD265-06E7-4402-B17E-F8A9430CBD37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A43CD97-4B32-4DB7-898B-347D9531396A} = {7A43CD97-4B32-4DB7-898B-347D9531396A}
+		{EB83C1D5-7299-49A6-8306-F96AC5B40AE7} = {EB83C1D5-7299-49A6-8306-F96AC5B40AE7}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{E4F772EA-DC2A-497C-B24A-BFC877FCB009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models.csproj", "{E4F772EA-DC2A-497C-B24A-BFC877FCB009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeradores", "..\Enumeradores\Enumeradores.csproj", "{EB83C1D5-7299-49A6-8306-F96AC5B40AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumeradores", "..\Enumeradores\Enumeradores.csproj", "{EB83C1D5-7299-49A6-8306-F96AC5B40AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Site", "..\Site\Site.csproj", "{7A43CD97-4B32-4DB7-898B-347D9531396A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Site", "..\Site\Site.csproj", "{7A43CD97-4B32-4DB7-898B-347D9531396A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevExtreme NuGet.config", "DevExtreme NuGet.config", "{339460B6-EAB2-41D6-BFD4-42DD33304306}"
 	ProjectSection(SolutionItems) = preProject
