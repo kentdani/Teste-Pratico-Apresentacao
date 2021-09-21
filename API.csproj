@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Enumeradores\Enumeradores.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
